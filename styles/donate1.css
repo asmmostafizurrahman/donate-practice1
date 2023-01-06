@@ -86,3 +86,39 @@ ul{
 .plan-h{
     font-size: 26px;
 }
+.plan-des{
+    font-size: 12px;
+}
+.plan-ul>ul>li{
+    padding: 50px;
+    margin: 14px;
+}
+.food{
+    background-color: lightblue;
+    padding: 30px;
+}
+.shelter{
+    background-color: lightpink;
+}
+.education{
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+
+
+
+/* footer */
+footer{
+    padding: 30px;
+    text-align: center;
+
+    background-color: darkblue;
+}
+footer>div>p{
+    font-size: 10px;
+}
+footer>div>h3{
+    color: rgb(230, 81, 81);
+}
