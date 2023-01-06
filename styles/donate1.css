@@ -5,6 +5,9 @@
 
 }
 /* header */
+h1{
+    font-size: 32px;
+}
 .header{
     background-repeat: no-repeat;
     height: 500px;
@@ -21,6 +24,7 @@
     padding-left: 90px;
     padding-right: 90px;
     padding-bottom: 90px;
+    font-size: 12px;
 }
 .btn-primary{
     background-color: rgb(230, 81, 81);
@@ -33,3 +37,52 @@
 }
 /*  main */
 /* donate today */
+.donate{
+    margin-top: 60px;
+    text-align: center;
+}
+.today-description{
+    color: gray;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.tk > li{
+    margin: 50px;
+    text-align: center;
+    padding : 30px;
+    font-weight: 600;
+    color: gray;
+}
+
+.tk > li:hover{
+    color: rgb(230, 81, 81,);
+    background-color: rgba(230, 81, 81, 0.568);
+    border: 2px;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: rgb(230, 81, 81);
+    border-style: solid;
+}
+.tk > li:active{
+    color: rgb(230, 81, 81);
+}
+.amount{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.671);
+}
+.hr{
+    margin: 10px  50px;
+}
+.plan{
+    text-align: center;
+    margin-top: 5px;
+}
+.plan-h{
+    font-size: 26px;
+}
